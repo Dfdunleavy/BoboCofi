@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Websites language is in English -->
+	<head>
+		<!-- Websites Title -->
+		<title>BoboCofi</title>
+		
+		<!-- Websites JavaScript -->
+		<script type="text/javascript">
+		
+		</script>
+		
+		<!-- Linking My stylesheet and Bootstraps stylesheet -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cutive&family=Sofia&display=swap" rel="stylesheet">
+	
+	</head>
+	<body>
+		<!-- javascript guessing game--> 
+		<script language="javascript">
+		var randomNumber = Math.floor(Math.random()*20);
+		var guess = prompt("Guess any number from 0 to 20");
+		if(guess>=0 && guess<=20){
+		if(guess == randomNumber){
+		alert("Congratulations you guessed right!" 
+		+ guess);	
+		}else{
+		alert("You guessed wrong, try again. " +
+		"Right number was " + randomNumber);
+		}  
+		}
+		</script>
+
+	<!--the background colour goes here-->
+	<body style="background-color:#b39066;">
+	
+	<!-- this is the navbar -->
+	<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ab8355;">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">About Us</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- inserting my image-->
+	<div style="display:block;text-align:left">
+		<img id="logo" src="images/logo.jpg.png" alt="logo of the website" style="float:left;width:160px;height:160px;">
+	</div>
+		<h1 id="about" style="text-align:center">About Us</h1>
+	<div id="container">
+		<img id="image" src="images/coffee.jpg" alt="coffee shop">
+	</div>
+
+	<!-- my paragpraphs for About Us-->
+		<p class="paragraphaboutpage" style="text-align:center">BoboCofi is the place to go to after a long night of studying to the next morning dragging your feet into college, our coffee will be sure to energise your learning.</p>
+		<p class="paragraphaboutpage" style="text-align:center">The story of BoboCofi begins with 3 students of NCI which came up with the entrepreneurial idea during one of their classes when they were exhausted after a long nights study and thought of nothing better but a coffee to spark up their learning, the only problem they had was the lack of places close to college to go to. Since coming up with the idea mid class, Thousands of students have walked through our doors seeking the same remedy to their sleepiness and lack of concentration since 2018</p>
+		<p class="paragraphaboutpage" style="text-align:center">We are proud to be the solution to our fellow students who all recommend us regardless if they are in their first year or graduates into jobs. Here at BoboCofi we take your suggestions to diversify our menu and cater to the tastes of each student, offering them the ideal caffeinated beverage to their needs.</p>
+
+	<!-- columns for image and timetable-->
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="images/cofi cup.jpg" alt="cup" style="width:100%" height="400px">
+		</div>
+		<div class="col-sm-6">
+		<div id="table" style="float:center-right">
+			
+			<!-- table -->
+			<table border="2" height="345px" width="50%">
+				<tr>
+					<h1>Opening Times</h1>
+				</tr>
+				<tr>
+					<th>Monday</th>
+					<td>7am-5pm</td>
+				</tr>
+				<tr>
+					<th>Tuesday</th>
+					<td>7am-5pm</td>
+				</tr>
+				<tr>
+					<th>Wednesday</th>
+					<td>8am-4pm</td>
+				</tr>
+				<tr>
+					<th>Thursday</th>
+					<td>8am-4pm</td>
+				</tr>
+				<tr>
+					<th>Friday</th>
+					<td>7am-5pm</td>
+				</tr>
+				<tr>
+				<th>Saturday</th>
+				<td>1pm-4pm</td>
+			</tr>
+			<tr>
+				<th>Sunday</th>
+				<td>CLOSED</td>
+			</tr>
+		</table>
+		</div>
+		</div>
+		</div>
+
+
+
+		<footer class="text-center text-white" style="background-color: #B39066;" >
+			
+			<!-- Grid container -->
+			<div class="container pt-4">
+				<!-- Section: Social media -->
+				<section class="mb-4">
+					<!-- Facebook -->
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						href="#!"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="bi bi-facebook"></i
+					></a>
+
+					<!-- Twitter -->
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						href="#!"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="bi bi-twitter"></i
+					></a>
+
+					<!-- Google -->
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						href="#!"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="bi bi-google"></i
+					></a>
+
+					<!-- Instagram -->
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						href="#!"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="bi bi-instagram"></i
+					></a>
+
+					<!-- Linkedin -->
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						href="#!"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="bi bi-linkedin"></i
+					></a>
+					<!-- Github -->
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						href="#!"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="bi bi-github"></i
+					></a>
+				</section>
+			<!-- Section: Social media -->
+			</div>
+		  <!-- Grid container -->
+
+		  <!-- Copyright -->
+			<div class="text-center text-dark p-3" style="Background-color:#AB8455">
+				© 2021 Copyright:
+				<a class="text-dark" href="#">BoboCofi</a>
+			</div>
+		  <!-- Copyright -->
+		</footer>
+		
+	
+	
+		
+		
+		<!-- Bootstrap scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
